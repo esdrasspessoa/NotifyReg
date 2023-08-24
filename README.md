@@ -1,4 +1,4 @@
-User Registration Angular App
+NotifyReg
 =============================
 
 Este é um aplicativo Angular simples que permite aos usuários se registrarem e exibe uma lista de usuários registrados. O aplicativo utiliza formulários do Angular para entrada de usuário e ngx-toastr para exibir mensagens de sucesso e erro.
@@ -16,7 +16,7 @@ Instalação
 
 1.  Clone este repositório para sua máquina local usando:
 
-    `git clone <repository-url>`
+    `git clone https://github.com/esdrasspessoa/NotifyReg.git`
 
 2.  Navegue até o diretório do projeto:
 
