@@ -1,27 +1,64 @@
-# NotifyReg
+User Registration Angular App
+=============================
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Este é um aplicativo Angular simples que permite aos usuários se registrarem e exibe uma lista de usuários registrados. O aplicativo utiliza formulários do Angular para entrada de usuário e ngx-toastr para exibir mensagens de sucesso e erro.
 
-## Development server
+Recursos
+--------
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+-   Formulário de registro de usuário com campos para nome de usuário, email e senha.
+-   Validação para garantir que todos os campos sejam preenchidos antes de enviar o registro.
+-   Exibição de usuários registrados em um formato de tabela.
+-   Uso de notificações Toastr para mostrar mensagens de sucesso e erro.
 
-## Code scaffolding
+Instalação
+----------
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1.  Clone este repositório para sua máquina local usando:
 
-## Build
+    `git clone <repository-url>`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2.  Navegue até o diretório do projeto:
 
-## Running unit tests
+    `cd user-registration-angular-app`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3.  Instale as dependências necessárias:
 
-## Running end-to-end tests
+    `npm install`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4.  Inicie o servidor de desenvolvimento
 
-## Further help
+    `ng serve`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5.  Abra seu navegador e acesse `http://localhost:4200` para acessar o aplicativo.
+
+Uso
+---
+
+1.  Abra o aplicativo em seu navegador.
+
+2.  Preencha o formulário de registro de usuário com as informações necessárias: nome de usuário, email e senha.
+
+3.  Clique no botão "Registrar" para enviar o registro.
+
+4.  Se todos os campos estiverem preenchidos, o usuário será adicionado à lista de usuários registrados. Se algum campo estiver faltando, uma mensagem de erro será exibida.
+
+5.  A lista de usuários registrados será exibida abaixo do formulário de registro.
+
+Tecnologias Utilizadas
+----------------------
+
+-   Angular: Um framework front-end popular para construção de aplicativos web.
+-   FormsModule: Um módulo Angular usado para trabalhar com formulários e entrada de usuário.
+-   ngx-toastr: Uma biblioteca para exibir notificações de toast em aplicativos Angular.
+-   BrowserAnimationsModule: O módulo de animações do Angular para interações mais suaves do usuário.
+
+Contribuição
+------------
+
+Contribuições para este projeto são bem-vindas. Você pode contribuir abrindo problemas para relatar bugs ou solicitar novos recursos, ou fazendo pull requests para resolver problemas existentes.
+
+Licença
+-------
+
+Este projeto está licenciado sob a [Licença MIT](https://chat.openai.com/LICENSE).
